@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <v-app>
     <AppToBar/>
     <v-main>
@@ -16,6 +17,14 @@ export default {
   }
 }
 </script>
+=======
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+
+
+>>>>>>> 27a5a7e4ca787658b15c93a4d2844d08fd4cd811
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
