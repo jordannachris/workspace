@@ -1,7 +1,7 @@
 <template>
   <v-app>
+    <router-view/>
     <AppTopBar/>
-    <FaleConosco/>
     <v-main>
       
     </v-main>
@@ -10,12 +10,12 @@
 
 <script>
 import AppTopBar from './components/shared/AppTopBar.vue'
-import FaleConosco from './components/FaleConosco.vue'
+
 export default {
     name: 'App', 
     components: {
       AppTopBar,
-      FaleConosco, 
+     
     },
 }
 </script>
@@ -41,5 +41,8 @@ export default {
       color: #42b983;
     }
   }
+  
 }
+
+
 </style>

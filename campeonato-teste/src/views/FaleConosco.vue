@@ -1,5 +1,7 @@
 <template>
-    <div class="fale-conosco">Teste Fale Conosco View</div>
+<v-container>
+    <div class="fale-conosco" color = "white">Teste Fale Conosco View</div>
+</v-container>
 </template>
 
 <script>

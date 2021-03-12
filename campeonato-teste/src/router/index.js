@@ -6,13 +6,13 @@ import Logos from '../views/Logos.vue'
 Vue.use(VueRouter)
 const routes = [
   {
-    path: '/views/FaleConosco',
+    path: '/fale-conosco',
     name: 'FaleConosco',
     component: FaleConosco,
   },
 
   {
-    path: '/Logos',
+    path: '/logos',
     name: 'Logos',
     component: Logos
   },

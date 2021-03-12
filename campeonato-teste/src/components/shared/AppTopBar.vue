@@ -5,7 +5,7 @@
       app
       dark
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Campeonato Brasileiro</v-toolbar-title>
 
@@ -43,21 +43,36 @@
       >
         <v-list-item-group
           v-model="group"
-          active-class="deep-purple--text text--accent-4"
+          active-class="green"
         >
+          <router-link to="/">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item>
+          </router-link>
 
+          <router-link to="/fale-conosco">
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <v-icon>mdi-account-voice</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Account</v-list-item-title>
+            <v-list-item-title>Fale Conosco</v-list-item-title>
           </v-list-item>
+          </router-link>
+
+           <router-link to="/logos">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-soccer</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>Logos</v-list-item-title>
+          </v-list-item>
+          </router-link>
+
+
         </v-list-item-group>
       </v-list>
   </v-navigation-drawer>
@@ -66,10 +81,17 @@
 
 <script>
 export default {
-    
+    name:'AppTopBar',
+    data: () => ({
+        drawer: false,
+        group: null,
+  }),
 }
 </script>
 
 <style scoped>
-
+.apptopbar a {
+    text-decoration: none;
+    color:white;
+}
 </style>
