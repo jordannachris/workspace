@@ -1,9 +1,20 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <v-app>
+<Pag1/>
+    <v-main>
+    </v-main>
+  </v-app>
 </template>
 
+
+<script>
+import Pag1 from './views/Pag1.vue'
+export default {
+  components: {
+    Pag1
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
