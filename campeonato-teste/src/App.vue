@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <v-app>
 <Pag1/>
     <v-main>
@@ -16,6 +17,34 @@ export default {
 }
 </script>
 
+=======
+<<<<<<< HEAD
+  <v-app>
+    <AppToBar/>
+    <v-main>
+      <router-view/>
+    </v-main>
+  </v-app>
+</template>
+
+<script>
+import AppTopBar from './components/shared/AppTopBar.vue'
+export default {
+  name: 'App',
+  components:{
+    AppTopBar
+  }
+}
+</script>
+=======
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+
+
+>>>>>>> 27a5a7e4ca787658b15c93a4d2844d08fd4cd811
+>>>>>>> d217600c0378bc9f6ddd0f921afdc9d9d2bc2de4
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
