@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import FaleConosco from '../views/FaleConosco.vue'
+import Logos from '../views/Logos.vue'
 
 Vue.use(VueRouter)
 const routes = [
@@ -8,23 +9,19 @@ const routes = [
     path: '/views/FaleConosco',
     name: 'FaleConosco',
     component: FaleConosco,
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    
-  }
- /* {
-    path: '/',
-    name: 'Home',
-    component: Home
   },
+
+  {
+    path: '/Logos',
+    name: 'Logos',
+    component: Logos
+  },
+
+  /*
   {
     path: '/about',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( '../views/About.vue')
+    component: 
   } */
 
 ]

@@ -1,5 +1,5 @@
 <template>
-    <div class="fale-conosco"></div>
+    <div class="fale-conosco">Teste Fale Conosco View</div>
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 <template>
   <div class="apptopbar">
      <v-app-bar
-      color="lime lighten-1"
+      color="light-green darken-3"
       app
       dark
     >

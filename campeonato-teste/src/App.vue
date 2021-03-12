@@ -1,30 +1,7 @@
 <template>
   <v-app>
-<<<<<<< HEAD
-<Pag1/>
-    <v-main>
-    </v-main>
-  </v-app>
-</template>
-
-
-<script>
-import Pag1 from './views/Pag1.vue'
-export default {
-  components: {
-    Pag1
-  }
-}
-</script>
-
-=======
-<<<<<<< HEAD
-  <v-app>
-    <AppToBar/>
-=======
     <AppTopBar/>
     <FaleConosco/>
->>>>>>> f820222c232abf7368fd37e646b3baeeb9118f8b
     <v-main>
       
     </v-main>
@@ -38,17 +15,12 @@ export default {
     name: 'App', 
     components: {
       AppTopBar,
-      FaleConosco
+      FaleConosco, 
     },
 }
 </script>
 
-<<<<<<< HEAD
 
->>>>>>> 27a5a7e4ca787658b15c93a4d2844d08fd4cd811
->>>>>>> d217600c0378bc9f6ddd0f921afdc9d9d2bc2de4
-=======
->>>>>>> f820222c232abf7368fd37e646b3baeeb9118f8b
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -69,4 +41,5 @@ export default {
       color: #42b983;
     }
   }
+}
 </style>
